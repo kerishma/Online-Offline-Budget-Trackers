@@ -1,4 +1,4 @@
-let transactions = [];
+// let transactions = [];
 
 fetch('/api/transaction')
   .then((response) => {

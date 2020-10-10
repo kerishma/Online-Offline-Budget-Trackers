@@ -3,7 +3,10 @@ const FILES_TO_CACHE = [
     "/index.html",
     "index.js", 
     "/db.js", 
-    "/style.css"
+    "/style.css",
+    "/manifest.json",
+    "/icon-192X192.png",
+    "/icon-512X512.png"
   ];
 
 const CACHE_NAME = "static-cache-v2";
@@ -27,7 +30,7 @@ self.addEventListener("activate", function(evt) {
       return Promise.all(
         keyList.map(key => {
           if (key !== CACHE_NAME && key !== DATA_CACHE_NAME) {
-            console.log("Remove old cache data", key);
+            // console.log("Remove old cache data", key);
             return caches.delete(key);
           }
         })
