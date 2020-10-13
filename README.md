@@ -21,12 +21,14 @@ THEN that will be shown on the page, and added to their transaction history when
 - Express
 - Morgan
 - Mongoose
+- compression
 - JavaScript 
 
 ## Deployed App Link for Heroku
+https://online-offline--budget.herokuapp.com/
 
 ## gif Demo
-![online-offline-budget-tracker Demo](demo/!.gif)
+![online-offline-budget-tracker Demo](demo/Budget-Tracker!.gif)
 
 ## Owner
 Kerishma Tarin
