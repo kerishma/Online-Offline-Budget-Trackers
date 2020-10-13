@@ -28,7 +28,7 @@ THEN that will be shown on the page, and added to their transaction history when
 https://online-offline--budget.herokuapp.com/
 
 ## gif Demo
-![online-offline-budget-tracker Demo](demo/Budget-Tracker!.gif)
+![Budget Demo](demo/Budget-Tracker!.gif)
 
 ## Owner
 Kerishma Tarin
